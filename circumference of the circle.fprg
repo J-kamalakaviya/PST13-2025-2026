@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="circle"/>
+        <attribute name="authors" value="jpc06"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-06 08:38:15 PM"/>
+        <attribute name="created" value="anBjMDY7QVNVU1ZJVk9CT09LOzIwMjYtMDEtMDY7MDM6MDc6MzcgUE07MjYzOQ=="/>
+        <attribute name="edited" value="anBjMDY7QVNVU1ZJVk9CT09LOzIwMjYtMDEtMDY7MDg6Mzg6MTUgUE07MjsyNzUz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="r" type="Integer" array="False" size=""/>
+            <input variable="r"/>
+            <declare name="circum" type="Integer" array="False" size=""/>
+            <input variable="circum"/>
+            <assign variable="circum" expression="2*3.14*r"/>
+            <output expression="&quot;circumference of the circle&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
