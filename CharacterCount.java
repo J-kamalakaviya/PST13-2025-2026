@@ -1,0 +1,13 @@
+package PST;
+import java.util.Scanner;
+public class CharacterCount {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String str = sc.nextLine();
+        System.out.println("Characters = " + str.length());
+        sc.close();
+    }
+       
+}
+
+
